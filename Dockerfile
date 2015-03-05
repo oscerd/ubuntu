@@ -15,6 +15,9 @@ RUN apt-get install -y build-essential
 RUN apt-get install -y software-properties-common
 RUN apt-get install -y htop unzip vim wget make 
 
+# Add files.
+ADD files/.bashrc /files/.bashrc
+
 # Set environment variables.
 ENV HOME /root
 
