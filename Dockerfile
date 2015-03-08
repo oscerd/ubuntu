@@ -1,8 +1,6 @@
-#
 # Ubuntu Dockerfile
 #
 # https://github.com/oscerd/ubuntu
-#
 
 # Pull base image.
 FROM ubuntu:14.04
